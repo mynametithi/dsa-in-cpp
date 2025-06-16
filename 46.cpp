@@ -27,9 +27,9 @@ int binarySearch(vector<int> arr, int tar) // iteritive code
 int main()
 {
     vector<int> arr1 = {-1, 0, 3, 4, 5, 9, 12};
-    int tar1 = 12;
-    cout<<binarySearch()
-    vector<int> arr2 = {-1, 0, 3, 5, 9, 12};
-    int tar1 = 0;
+    int tar1 = 40;
+    cout << binarySearch(arr1, tar1);
+    // vector<int> arr2 = {-1, 0, 3, 5, 9, 12};
+    // int tar1 = 0;
     return 0;
 }
