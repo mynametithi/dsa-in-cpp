@@ -13,7 +13,7 @@ int decToBinary(int decNum)
         pow = pow * 10;
     }
     return ans;
-}  
+}
 
 int main()
 {
