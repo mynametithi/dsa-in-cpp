@@ -1,4 +1,4 @@
-// Find smallest or largest value in array:
+// Find smallest in array:
 // array is linear data structure:
 
 #include <iostream>
@@ -15,7 +15,7 @@ int main()
         {
             smallest = nums[i];
         }
-        }
+    }
     cout << "smallest value=" << smallest << endl;
     return 0;
 }
