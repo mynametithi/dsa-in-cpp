@@ -1,18 +1,22 @@
 // triangle star print using loop:
 #include <iostream>
 using namespace std;
+
 int main()
 {
     int n;
-    cout << "Enter your limit:";
+    cout << "Enter your limit: ";
     cin >> n;
 
     for (int i = 0; i < n; i++)
     {
-        for (int j = 0; j < i + 1; j++)
+        char ch = 'A' + i; // A, B, C, ...
+        for (int j = 0; j <= i; j++)
         {
-            cout << (i + 1) << " ";
+            cout << ch << " ";
         }
         cout << endl;
     }
+
+    return 0;
 }
