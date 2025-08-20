@@ -1,35 +1,15 @@
-// looping Condition:
+// pattern:
 #include <iostream>
 using namespace std;
-
 int main()
 {
-    int n, i;
-    bool isPrime = true;
-
-    cout << "Enter a number: ";
-    cin >> n;
-
-    if (n <= 1)
+    int n = 4;
+    for (int i = 0; i < n; i++)
     {
-        isPrime = false;
-    }
-    else
-    {
-        for (i = 2; i <= n / 2; i++)
+        for (int j = i + 1; j > 0; j--)
         {
-            if (n % i == 0)
-            {
-                isPrime = false;
-                break;
-            }
+            cout << j << " ";
         }
+        cout << endl;
     }
-
-    if (isPrime)
-        cout << n << " is a prime number." << endl;
-    else
-        cout << n << " is not a prime number." << endl;
-
-    return 0;
 }
